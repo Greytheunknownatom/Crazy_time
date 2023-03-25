@@ -12,12 +12,12 @@ int main(void)
 	char studentgradeletter;
 
 	/* noskshade declearing variables or values */
-	studentrank = 3;
+	studentrank = 4;
 	studentfeetotal = 247678888845.45;
 	studentgradeletter = 'B';
 
 	/* noskshade printing the student's information */
-	printf("student's rank in class: %dst\n", studentrank);
-	printf("student's total fees: $%3.2f\n", studentfeetotal);
-	printf("student's grade: %c\n", studentgradeletter);
+	printf("student's rank in class: %dth\n", studentrank);
+	printf("student's total fees: $%f\n", studentfeetotal);
+	printf("student's grade: %c Class\n", studentgradeletter);
 }
