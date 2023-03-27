@@ -11,24 +11,25 @@ int main(void)
 	printf("welcome master enter your name: ");
 	scanf ("%s", name);
 
-	printf("Hello %s!\n", name); 
+	printf("Hello %s!\nyou are the master of C programming\n", name); 
 
 	char age[20];
 	printf("noskshade please enter your age: ");
 	scanf ("%s", age);
 
-	printf("You are %s\n", age);
+	printf("You are %s\nwow so young!\n", age);
 
 	char sistersname[10];
 	printf("Now enter sister's name: ");
 	scanf ("%s", sistersname);
 
-	printf("Your sister's named %s\n", sistersname);
+	printf("Your sister's named %s such a beautiful name\n", sistersname);
 
 	char ronniesage[17];
 	printf("enter your age ronnie: ");
 	scanf ("%s", ronniesage);
 
-	printf("Ronnie is %s\n", ronniesage);
-	return (1);
+	printf("Ronnie is %s\nsuch a baby!\n", ronniesage);
+
+	return (0);
 }	
