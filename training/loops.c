@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	int numofloops = 13;
+	int numofloops = 10;
 	// noskshade says no modifications beyond this point
 	float n = 0.1f;
 	float o = 0;
@@ -28,3 +28,5 @@ int main(void)
 	printf("At the end, our target double k is:%f\n", k);
 	return (0);
 }
+// at the end after raising numof loops to 1500 complete inaccuracy was observed in target float o 
+// target double k remained accurate as the stakes were raised 
