@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	int numofloops = 10;
+	int numofloops = 1000;
 	// noskshade says no modifications beyond this point
 	float n = 0.1f;
 	float o = 0;
@@ -24,7 +24,7 @@ int main(void)
 		k += s;
 	}
 
-	printf("At the end, our target float b is:%f\n", o);
+	printf("At the end, our target float o is:%f\n", o);
 	printf("At the end, our target double k is:%f\n", k);
 	return (0);
 }

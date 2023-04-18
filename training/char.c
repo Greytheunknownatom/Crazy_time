@@ -21,6 +21,6 @@ int main(void)
 	
 	//math with ASCII
 	char maths = 'A' + '\t';
-	printf("A(65) + \\t(11) = %c(%i)\n", maths, maths);//return to fix 
+	printf("A(65) + g(103) = %c(%d)\n", maths, maths);//return to fix 
 	return (0);
 }
