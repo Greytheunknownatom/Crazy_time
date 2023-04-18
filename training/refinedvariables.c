@@ -67,5 +67,20 @@ int main(void)
 	
 	int myint = 10.0000;
 	printf("%i\n", myint);
+	
+	float hisfloat = 3.132233423423;
+	printf("%f\n", hisfloat);
+
+	double hisdouble = 3.1322334;
+	printf("%lf\n", hisdouble);
+
+	float myfloatagain = 3.978;
+	printf("%.10f\n", myfloatagain);
+	
+	float sumagain = 5 / 3;
+	float sumoncemore = 9 / 4;
+	
+	printf("%f\n", sumagain + sumoncemore);
 	return (0);
+
 }
